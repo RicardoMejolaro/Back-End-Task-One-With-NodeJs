@@ -1,0 +1,24 @@
+{
+  "name": "taskone",
+  "version": "1.0.0",
+  "description": "Aplicação de controle de atividades do seu dia a dia!",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "Ricardo Humberto do Nascimento Mejolaro",
+  "email": "ricardo.mejolaro@outlook.com",
+  "github": "https://github.com/RicardoMejolaro",
+  "linkedin": "https://www.linkedin.com/in/ricardo-mejolaro",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "date-fns": "^2.14.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.15"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
