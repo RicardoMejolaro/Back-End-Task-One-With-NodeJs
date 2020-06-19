@@ -4,7 +4,7 @@
   "description": "Aplicação de controle de atividades do seu dia a dia!",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon src/index.js"
+    "start": "nodemon public/index.js"
   },
   "keywords": [],
   "author": "Ricardo Humberto do Nascimento Mejolaro",

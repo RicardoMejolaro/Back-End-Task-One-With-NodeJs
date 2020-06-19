@@ -10,7 +10,7 @@ server.use(express.json());
 
 
 //Importando as Rotas
-const TaskRoutes = require('./routes/TaskRoutes');
+const TaskRoutes = require('../src/routes/TaskRoutes');
 //Injetando o arquivo de rotas na API
 server.use('/task', TaskRoutes);
 
