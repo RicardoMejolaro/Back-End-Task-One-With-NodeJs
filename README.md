@@ -1,25 +1,35 @@
 <h1 align=center>
-   Task One 1.0 <br/> 🚀 Done! <img src="icon-check.png" width="35" />
-</h1>
+<img src="public/assets/logo.png" width="250" />
 
 ---
+Task One 1.0 - Gerenciador de tarefas <br/><br/> 🚀 Done!
+</h1>
 
 ## 📑️ - Índice:
 
-- [Task One](#ℹ️--O-que-é-a-Task-One)
+- [Task One](#-ℹ️-O-que-é-a-Task-One)
 - [O projeto](#📝️-Sobre)
 - [Tecnologias utilizadas](#🚀️-Tecnologias-utilizadas)
 - [Como usar](#💾️-Como-baixar/testar-o-projeto)
-- [Contato](#Desenvolvido-com-💙️-por:)
+- [Contato](#-Desenvolvido-com-💙️-por)
+- [Licença](#-Licença)
 
 ---
 
-## ℹ️  - O que é a Task One:
+## 📝️ Sobre
 
-<h3> Task One é uma Api backend construída em NodeJs que controla o fluxo de tarefas,
-com os seguintes dados: </h3> 
+O projeto **Task One** é um controlador de tarefas, que visa melhorar o seu dia a dia, com controle total de tarefas cadastradas.
 
-### Dados da tarefa: 
+---
+
+## Apresentação de funcionamento das rotas
+
+<h1>
+<img src="public/assets/taskone.gif" alt="Gif demonstrativo Rotas Task">
+</h1>
+
+## Dados da tarefa: 
+
 <ol>
   <li> Tipo - ✔️  </li>
   <li> Título - ✔️  </li>
@@ -28,39 +38,24 @@ com os seguintes dados: </h3>
   <li> Status - ✔️ </li>
 </ol>
 
-<h3> Onde podem ser efetuadas as seguintes ações: <h3> 
+## Ações: 
 
-### Ações: 
 <ol>
   <li> Criar - ✔️ </li>
   <li> Atualizar - ✔️ </li>
   <li> Visualizar todas - ✔️ </li>
   <li> Visualizar por ID - ✔️ </li>
   <li> Deletar por ID - ✔️ </li> 
-  <li> Atualizar o Status - ✔️ </li>
+  <li> Atualizar Status - ✔️ </li>
   <li> Visualizar Atrasadas - ✔️ </li>
-  <li> Visualizar as do dia - ✔️ </li>
-  <li> Visualizar as do semana - ✔️ </li>
-  <li> Visualizar as do mês - ✔️ </li>
-  <li> Visualizar as do ano - ✔️ </li>
-<ol>
+  <li> Visualizar tarefas dia - ✔️ </li>
+  <li> Visualizar da semana - ✔️ </li>
+  <li> Visualizar do mês - ✔️ </li>
+  <li> Visualizar do ano - ✔️ </li>
+</ol>
+
 
 ---
-
-<h1 align=center>
-<img src="logo.png" alt="Task" width="300">
-</h1>
-
-<h1>
-<img src="taskone.gif" alt="Gif demonstrativo Rotas Task">
-</h1>
-
-## 📝️ Sobre
-
-O projeto **Task One** é um controlador de tarefas, que visa melhorar o seu dia a dia, com controle total de tarefas cadastradas.
-
----
-
 ## 🚀️ Tecnologias utilizadas
 
 O projeto foi desenvolvido utilizando as seguintes tecnologias:
@@ -99,7 +94,7 @@ $
 $ git clone https://github.com/RicardoMejolaro/Back-End-Task-One-With-NodeJs.git
 
 #Entrar no diretório
-$ cd backend-task-one-1.0
+$ cd backend-task-one
 
 #Instalar as dependências
 $ npm install
@@ -119,10 +114,14 @@ localhost:3001 para rota get
 
 ---
 
-#### Desenvolvido com 💙️ por:
+### Desenvolvido com 💙️ por
 
 ***Ricardo Mejolaro*** 
 <br/> 
-<a href="https://www.linkedin.com/in/ricardo-mejolaro">
-<img src="linkedin.png">
+<a href="https://www.linkedin.com/in/ricardo-mejolaro/">
+<img src="public/assets/linkedin.png">
 </a>
+
+### Licença
+
+Este projeto está licenciado sob a licença MIT - consulte a página [LICENSE](https://opensource.org/licenses/MIT) para obter detalhes.
